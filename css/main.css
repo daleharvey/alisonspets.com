@@ -1,0 +1,79 @@
+
+html {
+  background: #BBDFE4;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  width: 800px;
+  margin: 0 auto;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #111;
+}
+
+h1 {
+  display: block;
+  height: 300px;
+  width: 250px;
+  background: url(../img/logo.png) no-repeat center center;
+  background-size: contain;
+  text-indent: -9999px;
+  margin-right: 1em;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+#badges img {
+  width: 125px;
+}
+
+#contact {
+  list-style-type: none;
+  padding: 0;
+}
+
+#contact li {
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+.testimonial {
+  background: #FFF;
+  padding: 1em;
+  margin: 1em 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.testimonial img {
+  width: 200px;
+  flex-grow: 0;
+}
+
+.testimonial p {
+  margin: 0 0 0 .5em;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+
+.email {
+  background: url(../img/email.svg) no-repeat left center;
+  background-size: 20px;
+  padding-left: 2em;
+}
+
+.phone {
+  background: url(../img/phone.svg) no-repeat left center;
+  background-size: 20px;
+  padding-left: 2em;
+}
